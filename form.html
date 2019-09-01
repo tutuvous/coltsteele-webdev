@@ -31,6 +31,7 @@
 			<input id="password" type="password" name="password" placeholder="Password" minlength="5" maxlength="10" pattern=".{5,10}" title="Please enter a password with a minimum length of 5 characters, and a max length of 10 characters">
 <!-- Birthday -->
 		<div>
+			<span>Birthdate:</span>
 			<label for="month">
 				<select id="month" name="month">
 					<option value="0" selected disabled>Month</option>
@@ -205,8 +206,14 @@
 			
 		</div>
 <!-- Terms and Conditions -->
-		
-		 
+		<div>
+			<label for="terms">I agree to the terms and conditions:</label>
+			<input id="terms" type="checkbox" name="terms" required>
+		</div>
+<!-- Submit Button -->
+		<div>
+			<input type="submit" value="submit">
+		</div> 
 	</form>
 </body>
 </html>
